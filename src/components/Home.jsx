@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import Typed from 'typed.js';
+import bla from "../assets/bla.png";
 
 const Home = () => {
   const typedRef = useRef(null);
@@ -65,7 +66,7 @@ const Home = () => {
         >
           <div className="w-32 h-32 mx-auto rounded-full border-4 border-red-500 shadow-[0_0_30px_rgba(255,0,0,0.6)] overflow-hidden">
             <img
-              src="src/assets/bla.png"
+              src={bla}
               alt="Profile"
               className="w-full h-full object-cover"
             />
