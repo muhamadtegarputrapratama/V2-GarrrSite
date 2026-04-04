@@ -2,6 +2,7 @@ import React from "react";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { FaCode, FaMobile, FaRocket } from "react-icons/fa";
+import tegar from "../assets/tegar2.jpg";
 
 const About = () => {
   const ref = useRef(null);
@@ -39,7 +40,7 @@ const About = () => {
           >
             <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-transparent rounded-2xl blur-2xl opacity-50 group-hover:opacity-100 transition-opacity" />
             <img
-              src="src/assets/tegar2.jpg"
+              src={tegar}
               alt="Profile"
               className="relative rounded-2xl shadow-[0_0_30px_rgba(255,0,0,0.3)] w-full object-cover"
             />
