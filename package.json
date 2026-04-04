@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://muhamadtegarputrapratama.github.io/PortofGarrr-V2",
+  "homepage": "https://github.com/muhamadtegarputrapratama/V2-GarrrSite",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
