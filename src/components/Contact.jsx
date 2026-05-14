@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { motion, useInView } from "framer-motion";
+import {  useInView } from "framer-motion";
 import { useRef } from "react";
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaInstagram } from "react-icons/fa";
 import emailjs from "@emailjs/browser";
