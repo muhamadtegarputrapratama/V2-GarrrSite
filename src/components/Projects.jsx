@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-// ✅ IMPORT GAMBAR (WAJIB)
+
 import vote from "../assets/vote.png";
 import dict from "../assets/dict.png";
 import ticket from "../assets/ticket.png";
